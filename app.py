@@ -23,7 +23,7 @@ from flask import Flask, request, render_template
 # Warning
 import warnings
 warnings.filterwarnings('ignore')
-#nltk.download('all')
+nltk.download('all')
 
 
 #load model and tfidf vect
