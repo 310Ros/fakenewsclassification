@@ -1,0 +1,32 @@
+link:
+version selection link:https://docs.aws.amazon.com/elasticbeanstalk/latest/platforms/platforms-supported.html#platforms-supported.python
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html
+
+ 
+https://www.techielass.com/install-terraform-in-the-aws-cloudshell/    *
+
+
+
+
+terraform cmd:
+
+git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+mkdir ~/bin
+ln -s ~/.tfenv/bin/* ~/bin/
+tfenv install
+tfenv use 1.9.2
+sudo nano eb.tf          (remove file - rm eb.tf)
+terraform init
+terraform apply -auto-approve
+
+
+
+
+SONAR
+
+https://alexanderhose.com/integrate-sonarqube-with-codepipeline/
+
+
+
+
+
